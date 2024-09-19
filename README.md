@@ -52,13 +52,18 @@ Each classifier was trained on the selected features from PSO and evaluated usin
 ## Evaluation and Results
 This section presents the performance evaluation of the models used in the project. Both Logistic Regression and Random Forest Classifier were applied to predict heart attack risk. Logistic Regression was implemented in two ways: manually (from scratch) and using the scikit-learn library. Additionally, the scikit-learn Random Forest was evaluated for comparison.
 
-1. Logistic Regression:
+### Logistic Regression:
 **Metrics:**
-**Accuracy:** The manually implemented model achieved an accuracy of **85.24%**, providing a benchmark for comparison with more complex models.
+
+**Accuracy:** The model achieved an accuracy of **85.24%**, providing a benchmark for comparison with more complex models.
+
 **Confusion Matrix:** A confusion matrix was used to assess the model's performance in predicting heart attack risk. It reveals the distribution of true positives, false positives, true negatives, and false negatives, offering valuable insights into the model's classification capabilities.
+
 **Classification Report:** A detailed classification report was generated, displaying key metrics such as precision, recall, and F1-score for each class. This breakdown highlights the model's strengths and weaknesses in handling heart attack predictions.
-2. Random Forest Classifier (scikit-learn)
+### Random Forest Classifier (scikit-learn)
 **Metrics:**
+
 **Accuracy:** The Random Forest model achieved the highest accuracy of **86.88%**, outperforming both logistic regression models and showing its suitability for handling complex patterns in the dataset.
+
 ## Conclusion
 This project demonstrates how combining dimensionality reduction (LDA) and feature selection (PSO) can enhance machine learning models' performance. By integrating these techniques, we improved the predictive accuracy of traditional classifiers such as Logistic Regression and Random Forest. The success of the project highlights the importance of selecting relevant features and reducing dimensionality when dealing with high-dimensional medical data.
