@@ -60,7 +60,7 @@ This section presents the performance evaluation of the models used in the proje
 **Confusion Matrix:** A confusion matrix was used to assess the model's performance in predicting heart attack risk. It reveals the distribution of true positives, false positives, true negatives, and false negatives, offering valuable insights into the model's classification capabilities.
 
 **Classification Report:** A detailed classification report was generated, displaying key metrics such as precision, recall, and F1-score for each class. This breakdown highlights the model's strengths and weaknesses in handling heart attack predictions.
-### Random Forest Classifier (scikit-learn)
+### Random Forest Classifier
 **Metrics:**
 
 **Accuracy:** The Random Forest model achieved the highest accuracy of **86.88%**, outperforming both logistic regression models and showing its suitability for handling complex patterns in the dataset.
