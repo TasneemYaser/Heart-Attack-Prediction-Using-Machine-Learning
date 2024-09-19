@@ -3,8 +3,8 @@ This project aims to predict the likelihood of heart attacks using a combination
 # Project Structure
 **Dataset:** The dataset used is the [Heart Attack Analysis and Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) from Kaggle.
 # Dataset
-The dataset used for this project is the [Heart Attack Analysis and Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) from Kaggle. It contains 14 features that represent medical and demographic attributes of patients, which are critical indicators of heart attack risk. The dataset is made up of ##the following key attributes:
-*Age: The age of the patient.
+The dataset used for this project is the [Heart Attack Analysis and Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) from Kaggle. It contains 14 features that represent medical and demographic attributes of patients, which are critical indicators of heart attack risk. The dataset is made up of the following key attributes:
+-Age: The age of the patient.
 *Sex: Gender of the patient (1 = Male, 0 = Female).
 *Chest Pain Type (cp): Ranges from 0 to 3, where different values correspond to various types of chest pain.
 *Resting Blood Pressure (trestbps): Resting blood pressure in mm Hg on admission to the hospital.
